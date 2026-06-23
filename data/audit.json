@@ -1,0 +1,200 @@
+{
+  "updated_at": "2026-06-23 16:59",
+  "gsc": {
+    "total_clicks": 250,
+    "total_impressions": 13034,
+    "avg_ctr": 1.92,
+    "avg_position": 11.5,
+    "top_keywords": [
+      {
+        "query": "stone de art",
+        "clicks": 83,
+        "impressions": 264,
+        "ctr": 31.44,
+        "position": 1.2
+      },
+      {
+        "query": "stonedeart",
+        "clicks": 25,
+        "impressions": 54,
+        "ctr": 46.3,
+        "position": 1.4
+      },
+      {
+        "query": "marble dining table",
+        "clicks": 4,
+        "impressions": 208,
+        "ctr": 1.92,
+        "position": 9.5
+      },
+      {
+        "query": "stone de art marble & granite sdn bhd",
+        "clicks": 4,
+        "impressions": 47,
+        "ctr": 8.51,
+        "position": 1.0
+      },
+      {
+        "query": "marble dining table malaysia",
+        "clicks": 3,
+        "impressions": 122,
+        "ctr": 2.46,
+        "position": 10.8
+      },
+      {
+        "query": "marble malaysia",
+        "clicks": 3,
+        "impressions": 89,
+        "ctr": 3.37,
+        "position": 7.9
+      },
+      {
+        "query": "marble stone",
+        "clicks": 2,
+        "impressions": 116,
+        "ctr": 1.72,
+        "position": 8.5
+      },
+      {
+        "query": "stone shop",
+        "clicks": 2,
+        "impressions": 10,
+        "ctr": 20.0,
+        "position": 6.3
+      },
+      {
+        "query": "custom made marble dining table",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 8.7
+      },
+      {
+        "query": "custom sandstone",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 6
+      },
+      {
+        "query": "granite",
+        "clicks": 1,
+        "impressions": 164,
+        "ctr": 0.61,
+        "position": 9.0
+      },
+      {
+        "query": "granite stone flooring",
+        "clicks": 1,
+        "impressions": 10,
+        "ctr": 10.0,
+        "position": 7.9
+      },
+      {
+        "query": "granite supplier malaysia",
+        "clicks": 1,
+        "impressions": 44,
+        "ctr": 2.27,
+        "position": 15.5
+      },
+      {
+        "query": "luxury dining table malaysia",
+        "clicks": 1,
+        "impressions": 88,
+        "ctr": 1.14,
+        "position": 5.1
+      },
+      {
+        "query": "luxury table",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 9.7
+      },
+      {
+        "query": "marble feature wall",
+        "clicks": 1,
+        "impressions": 58,
+        "ctr": 1.72,
+        "position": 8.3
+      },
+      {
+        "query": "marble furniture",
+        "clicks": 1,
+        "impressions": 38,
+        "ctr": 2.63,
+        "position": 11.8
+      },
+      {
+        "query": "marble table malaysia",
+        "clicks": 1,
+        "impressions": 14,
+        "ctr": 7.14,
+        "position": 13.1
+      },
+      {
+        "query": "natur stone",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 4
+      },
+      {
+        "query": "natural marble dining table",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 12
+      }
+    ],
+    "period": "2026-05-26 ~ 2026-06-23"
+  },
+  "ga4": {
+    "total_sessions": 0,
+    "total_users": 0,
+    "bounce_rate": 0.0,
+    "avg_session_duration": 0,
+    "channels": [
+      {
+        "channel": "Paid Search",
+        "sessions": 1910,
+        "users": 1702
+      },
+      {
+        "channel": "Organic Search",
+        "sessions": 764,
+        "users": 376
+      },
+      {
+        "channel": "Direct",
+        "sessions": 322,
+        "users": 278
+      },
+      {
+        "channel": "Organic Social",
+        "sessions": 84,
+        "users": 50
+      },
+      {
+        "channel": "Unassigned",
+        "sessions": 24,
+        "users": 19
+      },
+      {
+        "channel": "Referral",
+        "sessions": 17,
+        "users": 9
+      },
+      {
+        "channel": "Cross-network",
+        "sessions": 14,
+        "users": 14
+      },
+      {
+        "channel": "AI Assistant",
+        "sessions": 7,
+        "users": 4
+      }
+    ]
+  }
+}

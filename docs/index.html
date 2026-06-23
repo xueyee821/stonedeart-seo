@@ -1,4 +1,284 @@
-<html><body style="font-family:sans-serif;text-align:center;padding:3rem;color:#64748b">
-  <h2>Stone De Art SEO Dashboard</h2>
-  <p>正在初始化，请运行 GitHub Actions 后刷新。</p>
-</body></html>
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stone De Art SEO Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; }
+  header { background: #1e293b; color: white; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+  header h1 { font-size: 1.25rem; font-weight: 600; }
+  header span { font-size: 0.8rem; opacity: 0.6; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 1.5rem 2rem 0; }
+  .card { background: white; border-radius: 12px; padding: 1.25rem 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+  .card .label { font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: .05em; margin-bottom: .5rem; }
+  .card .value { font-size: 1.8rem; font-weight: 700; color: #1e293b; }
+  .card .sub { font-size: 0.75rem; color: #94a3b8; margin-top: .25rem; }
+  .section { margin: 1.5rem 2rem; background: white; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,.08); overflow: hidden; }
+  .section h2 { padding: 1rem 1.5rem; font-size: 0.9rem; font-weight: 600; border-bottom: 1px solid #f1f5f9; color: #475569; text-transform: uppercase; letter-spacing: .05em; }
+  table { width: 100%; border-collapse: collapse; }
+  th { background: #f8fafc; padding: .6rem 1rem; text-align: left; font-size: 0.75rem; color: #64748b; text-transform: uppercase; letter-spacing: .04em; font-weight: 500; }
+  td { padding: .6rem 1rem; font-size: 0.85rem; border-top: 1px solid #f1f5f9; }
+  tr:hover td { background: #f8fafc; }
+  .score-ring { display: flex; align-items: center; gap: 1rem; padding: 1.5rem; }
+  .score-num { font-size: 3rem; font-weight: 800; color: #ef4444; }
+  .score-meta { font-size: 0.8rem; color: #64748b; }
+  .issues { padding: 1rem 1.5rem; }
+  .issues li { font-size: 0.85rem; margin-bottom: .4rem; color: #475569; }
+  .period { font-size: 0.75rem; color: #94a3b8; padding: .5rem 1.5rem 1rem; }
+  footer { text-align: center; padding: 2rem; font-size: 0.75rem; color: #94a3b8; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 Stone De Art SEO Dashboard</h1>
+  <span>最后更新：2026-06-23 16:59</span>
+</header>
+
+<div class="grid">
+  <div class="card">
+    <div class="label">点击次数 (28天)</div>
+    <div class="value">250</div>
+    <div class="sub">Google Search Console</div>
+  </div>
+  <div class="card">
+    <div class="label">曝光次数 (28天)</div>
+    <div class="value">13,034</div>
+    <div class="sub">Google Search Console</div>
+  </div>
+  <div class="card">
+    <div class="label">平均点击率</div>
+    <div class="value">1.92%</div>
+    <div class="sub">CTR</div>
+  </div>
+  <div class="card">
+    <div class="label">平均排名</div>
+    <div class="value">11.5</div>
+    <div class="sub">Search Position</div>
+  </div>
+  <div class="card">
+    <div class="label">会话数 (28天)</div>
+    <div class="value">0</div>
+    <div class="sub">Google Analytics</div>
+  </div>
+  <div class="card">
+    <div class="label">用户数 (28天)</div>
+    <div class="value">0</div>
+    <div class="sub">Google Analytics</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>🔑 搜索关键词 Top 20（28天）</h2>
+  <p class="period">数据周期：2026-05-26 ~ 2026-06-23</p>
+  <table>
+    <thead><tr><th>关键词</th><th>点击</th><th>曝光</th><th>CTR</th><th>排名</th></tr></thead>
+    <tbody>
+        <tr>
+          <td>stone de art</td>
+          <td>83</td>
+          <td>264</td>
+          <td>31.44%</td>
+          <td>1.2</td>
+        </tr>
+        <tr>
+          <td>stonedeart</td>
+          <td>25</td>
+          <td>54</td>
+          <td>46.3%</td>
+          <td>1.4</td>
+        </tr>
+        <tr>
+          <td>marble dining table</td>
+          <td>4</td>
+          <td>208</td>
+          <td>1.92%</td>
+          <td>9.5</td>
+        </tr>
+        <tr>
+          <td>stone de art marble & granite sdn bhd</td>
+          <td>4</td>
+          <td>47</td>
+          <td>8.51%</td>
+          <td>1.0</td>
+        </tr>
+        <tr>
+          <td>marble dining table malaysia</td>
+          <td>3</td>
+          <td>122</td>
+          <td>2.46%</td>
+          <td>10.8</td>
+        </tr>
+        <tr>
+          <td>marble malaysia</td>
+          <td>3</td>
+          <td>89</td>
+          <td>3.37%</td>
+          <td>7.9</td>
+        </tr>
+        <tr>
+          <td>marble stone</td>
+          <td>2</td>
+          <td>116</td>
+          <td>1.72%</td>
+          <td>8.5</td>
+        </tr>
+        <tr>
+          <td>stone shop</td>
+          <td>2</td>
+          <td>10</td>
+          <td>20.0%</td>
+          <td>6.3</td>
+        </tr>
+        <tr>
+          <td>custom made marble dining table</td>
+          <td>1</td>
+          <td>3</td>
+          <td>33.33%</td>
+          <td>8.7</td>
+        </tr>
+        <tr>
+          <td>custom sandstone</td>
+          <td>1</td>
+          <td>1</td>
+          <td>100%</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>granite</td>
+          <td>1</td>
+          <td>164</td>
+          <td>0.61%</td>
+          <td>9.0</td>
+        </tr>
+        <tr>
+          <td>granite stone flooring</td>
+          <td>1</td>
+          <td>10</td>
+          <td>10.0%</td>
+          <td>7.9</td>
+        </tr>
+        <tr>
+          <td>granite supplier malaysia</td>
+          <td>1</td>
+          <td>44</td>
+          <td>2.27%</td>
+          <td>15.5</td>
+        </tr>
+        <tr>
+          <td>luxury dining table malaysia</td>
+          <td>1</td>
+          <td>88</td>
+          <td>1.14%</td>
+          <td>5.1</td>
+        </tr>
+        <tr>
+          <td>luxury table</td>
+          <td>1</td>
+          <td>3</td>
+          <td>33.33%</td>
+          <td>9.7</td>
+        </tr>
+        <tr>
+          <td>marble feature wall</td>
+          <td>1</td>
+          <td>58</td>
+          <td>1.72%</td>
+          <td>8.3</td>
+        </tr>
+        <tr>
+          <td>marble furniture</td>
+          <td>1</td>
+          <td>38</td>
+          <td>2.63%</td>
+          <td>11.8</td>
+        </tr>
+        <tr>
+          <td>marble table malaysia</td>
+          <td>1</td>
+          <td>14</td>
+          <td>7.14%</td>
+          <td>13.1</td>
+        </tr>
+        <tr>
+          <td>natur stone</td>
+          <td>1</td>
+          <td>1</td>
+          <td>100%</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>natural marble dining table</td>
+          <td>1</td>
+          <td>3</td>
+          <td>33.33%</td>
+          <td>12</td>
+        </tr></tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>📈 流量来源渠道（28天）</h2>
+  <table>
+    <thead><tr><th>渠道</th><th>会话数</th><th>用户数</th></tr></thead>
+    <tbody>
+        <tr>
+          <td>Paid Search</td>
+          <td>1,910</td>
+          <td>1,702</td>
+        </tr>
+        <tr>
+          <td>Organic Search</td>
+          <td>764</td>
+          <td>376</td>
+        </tr>
+        <tr>
+          <td>Direct</td>
+          <td>322</td>
+          <td>278</td>
+        </tr>
+        <tr>
+          <td>Organic Social</td>
+          <td>84</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Unassigned</td>
+          <td>24</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>Referral</td>
+          <td>17</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>Cross-network</td>
+          <td>14</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>AI Assistant</td>
+          <td>7</td>
+          <td>4</td>
+        </tr></tbody>
+  </table>
+</div>
+
+<div class="section">
+  <h2>🛠 技术健康分（SE Ranking）</h2>
+  <div class="score-ring">
+    <div class="score-num">—</div>
+    <div class="score-meta">
+      <div>上传时间：待更新</div>
+      <div>已爬取页面：0</div>
+      <div>错误 0 · 警告 0 · 提示 0</div>
+    </div>
+  </div>
+  <p class="period">运行 update_seranking.py 后显示技术问题列表</p>
+</div>
+
+<footer>stonedeart.com.my · 数据来源：Google Search Console、Google Analytics 4、SE Ranking · 每周一自动更新</footer>
+</body>
+</html>
