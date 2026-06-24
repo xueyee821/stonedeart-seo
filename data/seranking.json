@@ -6,7 +6,6 @@
   "warnings": 190,
   "notices": 507,
   "pages_crawled": 134,
-  "urls_found": 134,
   "keyword_rankings": [
     {"kw": "stone de art", "pos": 1, "vol": 170},
     {"kw": "stone de art malaysia", "pos": 1, "vol": 0},
@@ -22,21 +21,21 @@
     {"kw": "marble flooring malaysia", "pos": 8, "vol": 70},
     {"kw": "marble dining table", "pos": 8, "vol": 1000},
     {"kw": "marble malaysia", "pos": 9, "vol": 320},
-    {"kw": "marble supplier malaysia", "pos": 10, "vol": 50},
-    {"kw": "natural stone malaysia", "pos": 11, "vol": 90},
+    {"kw": "granite stone", "pos": 9, "vol": 10},
+    {"kw": "marble granite", "pos": 10, "vol": 30},
     {"kw": "granite countertop malaysia", "pos": 14, "vol": 170},
     {"kw": "marble countertop malaysia", "pos": 15, "vol": 210},
     {"kw": "quartzite malaysia", "pos": 17, "vol": 110},
     {"kw": "marble kitchen countertop malaysia", "pos": 22, "vol": 70}
   ],
   "issues": {
-    "重复页面标题（11页）": {"count": 11, "note": "影响关键词定向，需逐页设置独特标题"},
-    "缺少 Meta Description（9页）": {"count": 9, "note": "直接影响 SERP CTR"},
-    "图片缺少 alt 文字（27张）": {"count": 27, "note": "失去图片 SEO 和无障碍价值"},
-    "内链指向 3XX 重定向（110个）": {"count": 110, "note": "消耗 link equity，建议直接链接到最终 URL"},
-    "缺少 H1 标签（9页）": {"count": 9, "note": "影响页面主题识别"},
-    "页面加载慢（12页）": {"count": 12, "note": "LCP/TTI/TBT 需优化"},
-    "图片过大（8张）": {"count": 8, "note": "压缩图片可显著提升加载速度"},
-    "外链指向 4XX 页面（5个）": {"count": 5, "note": "移除或替换死链"}
+    "重复页面标题（11页）": {"count": 11, "note": "影响关键词定向"},
+    "缺少Meta Description（9页）": {"count": 9, "note": "直接影响CTR"},
+    "图片缺少alt文字（27张）": {"count": 27, "note": "失去图片SEO价值"},
+    "内链指向3XX重定向（110个）": {"count": 110, "note": "消耗link equity"},
+    "缺少H1标签（9页）": {"count": 9, "note": "影响主题识别"},
+    "页面加载慢（12页）": {"count": 12, "note": "LCP/TTI/TBT超标"},
+    "图片过大（8张）": {"count": 8, "note": "压缩可提升加载速度"},
+    "外链死链（5个）": {"count": 5, "note": "移除或替换404外链"}
   }
 }
