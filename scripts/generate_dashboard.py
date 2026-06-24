@@ -58,53 +58,55 @@ def generate():
         <div style="margin-top:8px;"><div style="background:#e5e7eb;border-radius:4px;height:6px;"><div style="background:{col};width:{val}%;height:6px;border-radius:4px;"></div></div></div>
     </div>'''
 
-    # ── issues ───────────────────────────────────────────────
+    # ── issues (from real SE Ranking audit) ──────────────────
     issues = {
         '页面优化': {
             'color': '#ef4444',
             'items': [
-                ('❌','首页有 6 个 H1 标签','严重','#ef4444','30分钟','WordPress 编辑器 → 保留 1 个 H1，其余全改 H2'),
-                ('❌','全站核心页面无 Meta Description','严重','#ef4444','1小时','Rank Math → 每页填写 140-160 字独特描述'),
-                ('❌','首页 16 张图片无 alt 文字','高','#f59e0b','45分钟','WordPress 媒体库 → 逐一填写含关键词的 alt'),
-                ('❌','Contact 页无 Google Maps Embed','高','#f59e0b','15分钟','Google Maps → 分享 → 嵌入地图 → 复制 iframe → 粘贴'),
+                ('❌','11 页重复页面标题','严重','#ef4444','1小时','Rank Math → 逐页设置独特 title，包含核心关键词 + 品牌名'),
+                ('❌','9 页缺少 Meta Description','严重','#ef4444','45分钟','Rank Math → 每页填写 140-160 字独特描述，包含 CTA'),
+                ('❌','9 页缺少 H1 标签','严重','#ef4444','30分钟','确认每个页面有且只有 1 个 H1，包含主关键词'),
+                ('❌','41 页 Title 与 H1 完全相同','中','#6b7280','1小时','Title 加入地域修饰词（Malaysia），H1 保持简洁'),
+                ('❌','21 个 Title 过长（超出 60 字符）','中','#6b7280','1小时','Rank Math → 缩短超长 title，确保在 55-60 字以内'),
+            ]
+        },
+        '链接与重定向': {
+            'color': '#dc2626',
+            'items': [
+                ('❌','110 个内链指向 3XX 重定向页','严重','#ef4444','2小时','批量替换内链为最终 URL，避免 link equity 损耗'),
+                ('❌','5 个外链指向 404 死链','高','#f59e0b','30分钟','找出并移除或替换所有外链死链'),
+                ('❌','6 个页面本身是 3XX 重定向','高','#f59e0b','30分钟','检查是否是无意的重定向，更新 sitemap 内 URL'),
+            ]
+        },
+        '图片': {
+            'color': '#f59e0b',
+            'items': [
+                ('❌','27 张图片缺少 alt 文字','高','#f59e0b','1小时','WordPress 媒体库 → 逐一填写含关键词的描述性 alt'),
+                ('❌','8 张图片过大（影响加载速度）','高','#f59e0b','1小时','用 ShortPixel 或 Smush 批量压缩，目标 < 200KB/张'),
             ]
         },
         'Schema': {
             'color': '#3b82f6',
             'items': [
-                ('❌','全站无 LocalBusiness Schema','严重','#ef4444','10分钟','Rank Math → Schema → 新增 LocalBusiness，type 选 HomeAndConstructionBusiness'),
+                ('❌','全站无 LocalBusiness Schema','严重','#ef4444','10分钟','Rank Math → Schema → 新增 LocalBusiness（HomeAndConstructionBusiness）'),
                 ('❌','全站无 BreadcrumbList Schema','严重','#ef4444','5分钟','Rank Math → 全局设置 → Breadcrumbs → 启用'),
-                ('❌','博文无 Article Schema','高','#f59e0b','5分钟','Rank Math → 内容类型设置 → 博文 → 启用 Article schema'),
-                ('❌','无 Organization Schema','高','#f59e0b','10分钟','Rank Math → General Settings → Knowledge Graph → 填写品牌信息'),
+                ('❌','博文无 Article Schema','高','#f59e0b','5分钟','Rank Math → 内容类型 → 博文 → 启用 Article schema'),
+                ('❌','无 Organization Schema','高','#f59e0b','10分钟','Rank Math → General Settings → Knowledge Graph → 填写品牌'),
             ]
         },
         'AI 可见度': {
             'color': '#8b5cf6',
             'items': [
-                ('❌','无 /llms.txt 文件','高','#f59e0b','15分钟','在网站根目录创建 /llms.txt，填入品牌简介和核心页面链接'),
-                ('❌','AI 爬虫访问未明确授权','严重','#ef4444','10分钟','robots.txt 确认允许 GPTBot、ClaudeBot、GoogleOther'),
-            ]
-        },
-        '本地 SEO': {
-            'color': '#f59e0b',
-            'items': [
-                ('❌','Contact 页无 Google Maps Embed','严重','#ef4444','15分钟','嵌入 Google Maps iframe 提升本地排名信号'),
-                ('❌','无 Google Business Profile 验证','高','#f59e0b','1小时','前往 business.google.com 认领并验证石材店 GBP'),
-            ]
-        },
-        '内容': {
-            'color': '#10b981',
-            'items': [
-                ('❌','重复博文 URL（两篇高度相似）','高','#f59e0b','30分钟','/which-stone-fits-your-lifestyle-practical-guide/ → 301 重定向至完整版'),
-                ('❌','石材类型页描述雷同','中','#6b7280','2小时','为每种石材（Marble/Granite/Quartzite）写独特价值主张'),
-                ('❌','无隐私政策页面','中','#6b7280','30分钟','添加 Privacy Policy 页（PDPA 合规要求）'),
+                ('❌','无 /llms.txt 文件','高','#f59e0b','15分钟','网站根目录创建 /llms.txt，填入品牌介绍和核心页面链接'),
+                ('❌','AI 爬虫未明确授权','高','#f59e0b','10分钟','robots.txt 确认允许 GPTBot、ClaudeBot、GoogleOther'),
             ]
         },
         '性能': {
             'color': '#6366f1',
             'items': [
-                ('❌','页面性能未经 PageSpeed 测试','高','#f59e0b','30分钟','前往 pagespeed.web.dev 测试，目标 LCP < 2.5s'),
-                ('❌','大量图片可能未压缩','中','#6b7280','1小时','用 Smush 或 ShortPixel 插件批量压缩现有图片'),
+                ('❌','12 页加载速度慢','严重','#ef4444','持续','LCP/TTI/TBT 超标，启用 WP Rocket 缓存 + Cloudflare CDN'),
+                ('❌','114 个 JS 未压缩/未缩小','中','#6b7280','1小时','WP Rocket → 启用 JS 合并和缩小（Minify）'),
+                ('❌','114 个 CSS 未压缩','中','#6b7280','30分钟','WP Rocket → 启用 CSS 合并和缩小'),
             ]
         },
     }
@@ -194,6 +196,24 @@ def generate():
     # SE Ranking score
     sr_score = sr.get('health_score', 0)
     sr_col, _, sr_lbl = sc(sr_score)
+
+    # SE Ranking keyword rankings table
+    sr_kw_rows = ''
+    for kw in sr.get('keyword_rankings', [])[:20]:
+        pos = kw['pos']
+        bg, col, lbl = kw_status(pos)
+        vol = f"{kw['vol']:,}" if kw.get('vol') else '—'
+        pos_col = '#16a34a' if pos <= 3 else '#f59e0b' if pos <= 10 else '#ef4444'
+        sr_kw_rows += f'''<tr style="border-bottom:1px solid #f3f4f6;">
+        <td style="padding:7px 8px;font-size:12px;">{kw['kw']}</td>
+        <td style="text-align:center;padding:7px 8px;font-size:12px;color:{pos_col};font-weight:700;">#{pos}</td>
+        <td style="text-align:center;padding:7px 8px;font-size:12px;color:#64748b;">{vol}</td>
+        <td style="text-align:center;padding:7px 8px;"><span style="background:{bg};color:{col};padding:2px 6px;border-radius:4px;font-size:11px;">{lbl}</span></td>
+    </tr>'''
+
+    # Use real SE Ranking scores if available
+    if sr_score:
+        scores[0] = ('技术 SEO', min(sr_score, 100), 'technical')
 
     overall_col = '#ef4444' if overall < 50 else '#f59e0b' if overall < 70 else '#16a34a'
 
@@ -293,16 +313,26 @@ def generate():
     {ch_html}
     {'<div style="background:#dcfce7;border-radius:8px;padding:8px 12px;margin:10px 0;font-size:12px;color:#16a34a;">💡 自然搜索访客质量最高，是 SEO 投入的核心回报</div>' if ga4.get('channels') else ''}
     <div style="margin-top:16px;">
-      <h2 style="font-size:12px;color:#888;margin-bottom:8px;">技术健康分（SE Ranking）</h2>
+      <h2 style="font-size:12px;color:#888;margin-bottom:8px;">技术健康分（SE Ranking · 自动同步）</h2>
       <div style="display:flex;align-items:center;gap:16px;">
         <div style="font-size:36px;font-weight:800;color:{sr_col};">{sr_score or '—'}</div>
         <div style="font-size:12px;color:#888;">
-          <div>{sr_lbl} · 更新：{sr.get('updated_at','待上传 PDF')}</div>
-          <div style="margin-top:3px;">错误 <span style="color:#ef4444;font-weight:700;">{sr.get('errors',0)}</span> · 警告 <span style="color:#f59e0b;font-weight:700;">{sr.get('warnings',0)}</span> · 提示 {sr.get('notices',0)}</div>
+          <div>{sr_lbl} · 更新：{sr.get('updated_at','—')}</div>
+          <div style="margin-top:3px;">已爬取 <strong>{sr.get('pages_crawled',0)}</strong> 页 · 错误 <span style="color:#ef4444;font-weight:700;">{sr.get('errors',0)}</span> · 警告 <span style="color:#f59e0b;font-weight:700;">{sr.get('warnings',0)}</span> · 提示 {sr.get('notices',0)}</div>
         </div>
       </div>
     </div>
   </div>
+</div>
+
+<!-- SE Ranking Keyword Rankings -->
+<div class="card">
+  <h2>📈 关键词排名（SE Ranking · 每日更新）</h2>
+  <div style="font-size:12px;color:#888;margin-bottom:10px;">追踪 166 个关键词 · 98 个有排名 · Top 10: 30个 · Top 5: 8个</div>
+  <table>
+    <tr><th>关键词</th><th style="text-align:center;">排名</th><th style="text-align:center;">月搜量</th><th style="text-align:center;">状态</th></tr>
+    {sr_kw_rows if sr_kw_rows else '<tr><td colspan="4" style="padding:20px;text-align:center;color:#94a3b8;font-size:12px;">SE Ranking 数据每周一自动同步</td></tr>'}
+  </table>
 </div>
 
 <!-- Full Checklist -->
