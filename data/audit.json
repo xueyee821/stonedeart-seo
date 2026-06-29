@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-06-29 11:34",
+  "updated_at": "2026-06-29 14:53",
   "gsc": {
-    "total_clicks": 263,
-    "total_impressions": 12402,
-    "avg_ctr": 2.12,
-    "avg_position": 11.6,
+    "total_clicks": 268,
+    "total_impressions": 12816,
+    "avg_ctr": 2.09,
+    "avg_position": 11.7,
     "top_keywords": [
       {
         "query": "stone de art",
-        "clicks": 96,
-        "impressions": 282,
-        "ctr": 34.04,
+        "clicks": 98,
+        "impressions": 287,
+        "ctr": 34.15,
         "position": 1.1
       },
       {
@@ -22,52 +22,52 @@
       },
       {
         "query": "stone de art marble & granite sdn bhd",
-        "clicks": 5,
-        "impressions": 49,
-        "ctr": 10.2,
+        "clicks": 7,
+        "impressions": 53,
+        "ctr": 13.21,
         "position": 1.0
       },
       {
         "query": "marble dining table",
         "clicks": 3,
-        "impressions": 184,
-        "ctr": 1.63,
+        "impressions": 193,
+        "ctr": 1.55,
         "position": 9.9
       },
       {
         "query": "granite supplier malaysia",
         "clicks": 2,
-        "impressions": 39,
-        "ctr": 5.13,
-        "position": 15.7
+        "impressions": 42,
+        "ctr": 4.76,
+        "position": 15.6
       },
       {
         "query": "marble dining table malaysia",
         "clicks": 2,
-        "impressions": 110,
-        "ctr": 1.82,
+        "impressions": 114,
+        "ctr": 1.75,
         "position": 11.1
       },
       {
         "query": "marble malaysia",
         "clicks": 2,
-        "impressions": 86,
-        "ctr": 2.33,
+        "impressions": 87,
+        "ctr": 2.3,
         "position": 7.5
       },
       {
         "query": "marble stone",
         "clicks": 2,
-        "impressions": 94,
-        "ctr": 2.13,
-        "position": 7.8
+        "impressions": 97,
+        "ctr": 2.06,
+        "position": 8
       },
       {
         "query": "natural stone malaysia",
         "clicks": 2,
-        "impressions": 35,
-        "ctr": 5.71,
-        "position": 8.3
+        "impressions": 36,
+        "ctr": 5.56,
+        "position": 8.4
       },
       {
         "query": "custom made marble dining table",
@@ -93,9 +93,9 @@
       {
         "query": "luxury dining table malaysia",
         "clicks": 1,
-        "impressions": 75,
-        "ctr": 1.33,
-        "position": 5.2
+        "impressions": 77,
+        "ctr": 1.3,
+        "position": 5.3
       },
       {
         "query": "luxury table",
@@ -107,30 +107,30 @@
       {
         "query": "marble feature wall",
         "clicks": 1,
-        "impressions": 48,
-        "ctr": 2.08,
-        "position": 9.1
+        "impressions": 49,
+        "ctr": 2.04,
+        "position": 9.2
       },
       {
         "query": "marble floor",
         "clicks": 1,
-        "impressions": 307,
-        "ctr": 0.33,
+        "impressions": 321,
+        "ctr": 0.31,
         "position": 1.8
       },
       {
         "query": "marble furniture",
         "clicks": 1,
-        "impressions": 36,
-        "ctr": 2.78,
+        "impressions": 37,
+        "ctr": 2.7,
         "position": 12.1
       },
       {
         "query": "marble table malaysia",
         "clicks": 1,
-        "impressions": 19,
-        "ctr": 5.26,
-        "position": 14.1
+        "impressions": 20,
+        "ctr": 5.0,
+        "position": 13.7
       },
       {
         "query": "natur stone",
@@ -142,9 +142,9 @@
       {
         "query": "natural marble dining table",
         "clicks": 1,
-        "impressions": 5,
-        "ctr": 20.0,
-        "position": 11.4
+        "impressions": 6,
+        "ctr": 16.67,
+        "position": 11.3
       }
     ],
     "period": "2026-06-01 ~ 2026-06-29"
@@ -157,23 +157,23 @@
     "channels": [
       {
         "channel": "Paid Search",
-        "sessions": 2073,
-        "users": 1840
+        "sessions": 2142,
+        "users": 1896
       },
       {
         "channel": "Organic Search",
-        "sessions": 755,
-        "users": 377
+        "sessions": 774,
+        "users": 385
       },
       {
         "channel": "Direct",
-        "sessions": 328,
-        "users": 282
+        "sessions": 332,
+        "users": 286
       },
       {
         "channel": "Organic Social",
-        "sessions": 96,
-        "users": 60
+        "sessions": 101,
+        "users": 64
       },
       {
         "channel": "Unassigned",
@@ -181,14 +181,14 @@
         "users": 20
       },
       {
+        "channel": "Cross-network",
+        "sessions": 15,
+        "users": 15
+      },
+      {
         "channel": "Referral",
         "sessions": 15,
         "users": 7
-      },
-      {
-        "channel": "Cross-network",
-        "sessions": 14,
-        "users": 14
       },
       {
         "channel": "AI Assistant",
