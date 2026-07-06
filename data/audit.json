@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-06 11:49",
+  "updated_at": "2026-07-06 14:17",
   "gsc": {
     "total_clicks": 265,
     "total_impressions": 12106,
@@ -157,38 +157,38 @@
     "channels": [
       {
         "channel": "Paid Search",
-        "sessions": 2226,
-        "users": 1978
+        "sessions": 2283,
+        "users": 2025
       },
       {
         "channel": "Organic Search",
-        "sessions": 791,
-        "users": 395
+        "sessions": 809,
+        "users": 403
       },
       {
         "channel": "Direct",
-        "sessions": 313,
-        "users": 269
+        "sessions": 327,
+        "users": 282
       },
       {
         "channel": "Organic Social",
-        "sessions": 117,
-        "users": 80
+        "sessions": 118,
+        "users": 81
       },
       {
         "channel": "Unassigned",
-        "sessions": 21,
-        "users": 21
+        "sessions": 22,
+        "users": 22
       },
       {
         "channel": "Cross-network",
-        "sessions": 16,
-        "users": 16
+        "sessions": 17,
+        "users": 17
       },
       {
         "channel": "Referral",
-        "sessions": 14,
-        "users": 6
+        "sessions": 15,
+        "users": 7
       },
       {
         "channel": "AI Assistant",
