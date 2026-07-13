@@ -1,37 +1,145 @@
 {
-  "updated_at": "2026-07-06",
+  "updated_at": "2026-07-13",
   "health_score": 81,
-  "total_issues": 205,
+  "total_issues": 216,
   "errors": 11,
   "warnings": 194,
   "notices": 511,
   "pages_crawled": 135,
   "keyword_rankings": [
-    {"kw": "stone de art", "pos": 1, "vol": 170},
-    {"kw": "stone de art malaysia", "pos": 1, "vol": 0},
-    {"kw": "stone de art marble & granite sdn bhd", "pos": 1, "vol": 210},
-    {"kw": "stone de art imported marble supplier", "pos": 1, "vol": 0},
-    {"kw": "stone art", "pos": 2, "vol": 170},
-    {"kw": "stone suppliers near me", "pos": 3, "vol": 70},
-    {"kw": "marble flooring malaysia", "pos": 3, "vol": 70},
-    {"kw": "marble flooring", "pos": 3, "vol": 40},
-    {"kw": "marble featured wall", "pos": 3, "vol": 0},
-    {"kw": "quartzite", "pos": 4, "vol": 390},
-    {"kw": "marble stone flooring", "pos": 4, "vol": 20},
-    {"kw": "onyx feature wall", "pos": 4, "vol": 10},
-    {"kw": "de stone", "pos": 6, "vol": 10},
-    {"kw": "marble flooring price malaysia", "pos": 6, "vol": 50},
-    {"kw": "marble floor", "pos": 6, "vol": 60},
-    {"kw": "luxury dining table", "pos": 6, "vol": 140},
-    {"kw": "stone table", "pos": 7, "vol": 110},
-    {"kw": "designer marble table", "pos": 7, "vol": 10},
-    {"kw": "marble dining table", "pos": 7, "vol": 1000},
-    {"kw": "stone feature wall", "pos": 7, "vol": 50}
+    {
+      "kw": "stone de art",
+      "pos": 1,
+      "vol": 170
+    },
+    {
+      "kw": "stone de art malaysia",
+      "pos": 1,
+      "vol": 0
+    },
+    {
+      "kw": "stone de art marble & granite sdn bhd",
+      "pos": 1,
+      "vol": 210
+    },
+    {
+      "kw": "stone art",
+      "pos": 2,
+      "vol": 170
+    },
+    {
+      "kw": "stone de art imported marble supplier",
+      "pos": 2,
+      "vol": 0
+    },
+    {
+      "kw": "marble flooring",
+      "pos": 3,
+      "vol": 40
+    },
+    {
+      "kw": "marble featured wall",
+      "pos": 3,
+      "vol": 0
+    },
+    {
+      "kw": "granite countertop",
+      "pos": 4,
+      "vol": 50
+    },
+    {
+      "kw": "marble stone flooring",
+      "pos": 4,
+      "vol": 20
+    },
+    {
+      "kw": "de stone",
+      "pos": 5,
+      "vol": 10
+    },
+    {
+      "kw": "quartzite",
+      "pos": 5,
+      "vol": 390
+    },
+    {
+      "kw": "marble floor",
+      "pos": 5,
+      "vol": 60
+    },
+    {
+      "kw": "granite slabs",
+      "pos": 6,
+      "vol": 110
+    },
+    {
+      "kw": "granite table top",
+      "pos": 6,
+      "vol": 320
+    },
+    {
+      "kw": "granite table top kitchen",
+      "pos": 6,
+      "vol": 90
+    },
+    {
+      "kw": "onyx feature wall",
+      "pos": 6,
+      "vol": 10
+    },
+    {
+      "kw": "luxury dining table",
+      "pos": 6,
+      "vol": 140
+    },
+    {
+      "kw": "granite kitchen top",
+      "pos": 7,
+      "vol": 110
+    },
+    {
+      "kw": "natural stone",
+      "pos": 8,
+      "vol": 320
+    },
+    {
+      "kw": "granite countertops",
+      "pos": 8,
+      "vol": 140
+    }
   ],
   "issues": {
-    "重复页面标题": {"count": 11, "note": "影响关键词定向"},
-    "缺少Meta Description": {"count": 9, "note": "影响CTR"},
-    "图片缺少alt": {"count": 24, "note": "失去图片SEO价值"},
-    "内链指向重定向": {"count": 111, "note": "消耗link equity"}
+    "重复页面标题（11页）": {
+      "count": 11,
+      "note": "影响关键词定向"
+    },
+    "缺少Meta Description（9页）": {
+      "count": 9,
+      "note": "直接影响CTR"
+    },
+    "图片缺少alt文字（24张）": {
+      "count": 24,
+      "note": "失去图片SEO价值"
+    },
+    "内链指向3XX重定向（111个）": {
+      "count": 111,
+      "note": "消耗link equity"
+    },
+    "缺少H1标签（9页）": {
+      "count": 9,
+      "note": "影响主题识别"
+    },
+    "页面加载慢（19页）": {
+      "count": 19,
+      "note": "LCP/TTI/TBT超标"
+    },
+    "图片过大（8张）": {
+      "count": 8,
+      "note": "压缩可提升加载速度"
+    },
+    "外链死链（5个）": {
+      "count": 5,
+      "note": "移除或替换404外链"
+    }
   }
 }
