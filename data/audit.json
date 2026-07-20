@@ -1,153 +1,153 @@
 {
-  "updated_at": "2026-07-13 12:18",
+  "updated_at": "2026-07-20 11:28",
   "gsc": {
-    "total_clicks": 232,
-    "total_impressions": 12218,
-    "avg_ctr": 1.9,
+    "total_clicks": 223,
+    "total_impressions": 12333,
+    "avg_ctr": 1.81,
     "avg_position": 12.7,
     "top_keywords": [
       {
         "query": "stone de art",
-        "clicks": 97,
-        "impressions": 284,
-        "ctr": 34.15,
+        "clicks": 101,
+        "impressions": 304,
+        "ctr": 33.22,
         "position": 1.1
       },
       {
         "query": "stonedeart",
-        "clicks": 23,
-        "impressions": 36,
-        "ctr": 63.89,
-        "position": 1.2
+        "clicks": 18,
+        "impressions": 31,
+        "ctr": 58.06,
+        "position": 1.1
       },
       {
         "query": "stone de art marble & granite sdn bhd",
-        "clicks": 8,
-        "impressions": 59,
-        "ctr": 13.56,
+        "clicks": 12,
+        "impressions": 60,
+        "ctr": 20.0,
         "position": 1.0
       },
       {
-        "query": "marble dining table",
+        "query": "quartzite",
         "clicks": 3,
-        "impressions": 246,
-        "ctr": 1.22,
-        "position": 8.8
+        "impressions": 177,
+        "ctr": 1.69,
+        "position": 4.3
+      },
+      {
+        "query": "marble dining table",
+        "clicks": 2,
+        "impressions": 254,
+        "ctr": 0.79,
+        "position": 9.1
       },
       {
         "query": "marble dining table malaysia",
         "clicks": 2,
-        "impressions": 185,
-        "ctr": 1.08,
-        "position": 10.6
-      },
-      {
-        "query": "natural stone malaysia",
-        "clicks": 2,
-        "impressions": 35,
-        "ctr": 5.71,
-        "position": 13.9
-      },
-      {
-        "query": "art marble",
-        "clicks": 1,
-        "impressions": 1,
-        "ctr": 100,
-        "position": 2
-      },
-      {
-        "query": "custom made marble dining table",
-        "clicks": 1,
-        "impressions": 1,
-        "ctr": 100,
-        "position": 7
-      },
-      {
-        "query": "granite",
-        "clicks": 1,
-        "impressions": 167,
-        "ctr": 0.6,
-        "position": 9.9
-      },
-      {
-        "query": "granite stone flooring",
-        "clicks": 1,
-        "impressions": 7,
-        "ctr": 14.29,
-        "position": 9.1
-      },
-      {
-        "query": "granite supplier malaysia",
-        "clicks": 1,
-        "impressions": 35,
-        "ctr": 2.86,
-        "position": 17.9
-      },
-      {
-        "query": "marble art",
-        "clicks": 1,
-        "impressions": 3,
-        "ctr": 33.33,
-        "position": 4
-      },
-      {
-        "query": "marble floor",
-        "clicks": 1,
-        "impressions": 331,
-        "ctr": 0.3,
-        "position": 1.7
-      },
-      {
-        "query": "marble malaysia",
-        "clicks": 1,
-        "impressions": 66,
-        "ctr": 1.52,
-        "position": 8.7
-      },
-      {
-        "query": "marble stone",
-        "clicks": 1,
-        "impressions": 71,
-        "ctr": 1.41,
+        "impressions": 211,
+        "ctr": 0.95,
         "position": 10.4
       },
       {
-        "query": "onyx in malay",
-        "clicks": 1,
-        "impressions": 10,
-        "ctr": 10.0,
-        "position": 3.4
+        "query": "marble malaysia",
+        "clicks": 2,
+        "impressions": 75,
+        "ctr": 2.67,
+        "position": 9
       },
       {
-        "query": "onyx wall",
+        "query": "stoneart",
+        "clicks": 2,
+        "impressions": 23,
+        "ctr": 8.7,
+        "position": 48.5
+      },
+      {
+        "query": "art marble",
         "clicks": 1,
         "impressions": 2,
         "ctr": 50.0,
         "position": 6
       },
       {
-        "query": "quartzite",
+        "query": "granite",
         "clicks": 1,
-        "impressions": 155,
+        "impressions": 154,
         "ctr": 0.65,
-        "position": 3.7
+        "position": 11.5
       },
       {
-        "query": "quartzite stone",
+        "query": "granite supplier malaysia",
         "clicks": 1,
-        "impressions": 37,
-        "ctr": 2.7,
-        "position": 6.5
+        "impressions": 34,
+        "ctr": 2.94,
+        "position": 19.1
+      },
+      {
+        "query": "marble art",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33,
+        "position": 4.3
+      },
+      {
+        "query": "marble floor",
+        "clicks": 1,
+        "impressions": 361,
+        "ctr": 0.28,
+        "position": 1.9
+      },
+      {
+        "query": "marble granite malaysia",
+        "clicks": 1,
+        "impressions": 30,
+        "ctr": 3.33,
+        "position": 10.3
+      },
+      {
+        "query": "natural stone malaysia",
+        "clicks": 1,
+        "impressions": 36,
+        "ctr": 2.78,
+        "position": 16.2
+      },
+      {
+        "query": "onyx in malay",
+        "clicks": 1,
+        "impressions": 14,
+        "ctr": 7.14,
+        "position": 3.1
+      },
+      {
+        "query": "quartzite vs granite vs marble",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 1
       },
       {
         "query": "stone art",
         "clicks": 1,
-        "impressions": 129,
-        "ctr": 0.78,
-        "position": 11.6
+        "impressions": 114,
+        "ctr": 0.88,
+        "position": 11.5
+      },
+      {
+        "query": "stone de art malaysia",
+        "clicks": 1,
+        "impressions": 38,
+        "ctr": 2.63,
+        "position": 1
+      },
+      {
+        "query": "stone malaysia",
+        "clicks": 1,
+        "impressions": 84,
+        "ctr": 1.19,
+        "position": 15.2
       }
     ],
-    "period": "2026-06-15 ~ 2026-07-13"
+    "period": "2026-06-22 ~ 2026-07-20"
   },
   "ga4": {
     "total_sessions": 0,
@@ -157,42 +157,42 @@
     "channels": [
       {
         "channel": "Paid Search",
-        "sessions": 2140,
-        "users": 1893
+        "sessions": 2026,
+        "users": 1769
       },
       {
         "channel": "Organic Search",
-        "sessions": 814,
-        "users": 391
+        "sessions": 779,
+        "users": 380
       },
       {
         "channel": "Direct",
-        "sessions": 355,
-        "users": 318
+        "sessions": 365,
+        "users": 314
       },
       {
         "channel": "Organic Social",
-        "sessions": 116,
-        "users": 87
+        "sessions": 121,
+        "users": 102
       },
       {
         "channel": "Unassigned",
-        "sessions": 32,
-        "users": 30
+        "sessions": 27,
+        "users": 24
       },
       {
         "channel": "Cross-network",
-        "sessions": 18,
-        "users": 18
+        "sessions": 19,
+        "users": 19
       },
       {
         "channel": "Referral",
-        "sessions": 16,
+        "sessions": 12,
         "users": 7
       },
       {
         "channel": "AI Assistant",
-        "sessions": 12,
+        "sessions": 9,
         "users": 9
       }
     ]
