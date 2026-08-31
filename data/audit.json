@@ -1,87 +1,80 @@
 {
-  "updated_at": "2026-08-24 02:19",
+  "updated_at": "2026-08-31 06:33",
   "gsc": {
-    "total_clicks": 291,
-    "total_impressions": 13703,
-    "avg_ctr": 2.12,
-    "avg_position": 14.7,
+    "total_clicks": 274,
+    "total_impressions": 13981,
+    "avg_ctr": 1.96,
+    "avg_position": 15.9,
     "top_keywords": [
       {
         "query": "stone de art",
-        "clicks": 118,
-        "impressions": 292,
-        "ctr": 40.41,
-        "position": 1.0
+        "clicks": 97,
+        "impressions": 268,
+        "ctr": 36.19,
+        "position": 1.1
       },
       {
         "query": "stonedeart",
-        "clicks": 27,
-        "impressions": 63,
-        "ctr": 42.86,
-        "position": 2.5
+        "clicks": 32,
+        "impressions": 73,
+        "ctr": 43.84,
+        "position": 5.3
       },
       {
         "query": "stone de art marble & granite sdn bhd",
-        "clicks": 14,
-        "impressions": 63,
-        "ctr": 22.22,
-        "position": 4.4
-      },
-      {
-        "query": "granite",
-        "clicks": 3,
-        "impressions": 263,
-        "ctr": 1.14,
-        "position": 10.0
+        "clicks": 10,
+        "impressions": 64,
+        "ctr": 15.62,
+        "position": 4.3
       },
       {
         "query": "marble dining table",
-        "clicks": 2,
-        "impressions": 175,
-        "ctr": 1.14,
-        "position": 10.1
+        "clicks": 3,
+        "impressions": 208,
+        "ctr": 1.44,
+        "position": 10.3
       },
       {
-        "query": "quartzite",
+        "query": "granite",
         "clicks": 2,
-        "impressions": 189,
-        "ctr": 1.06,
-        "position": 5.1
+        "impressions": 356,
+        "ctr": 0.56,
+        "position": 9.8
       },
       {
         "query": "stone",
         "clicks": 2,
-        "impressions": 74,
-        "ctr": 2.7,
-        "position": 16.0
+        "impressions": 89,
+        "ctr": 2.25,
+        "position": 14.9
       },
       {
-        "query": "stonedart",
+        "query": "stone carving",
         "clicks": 2,
-        "impressions": 6,
-        "ctr": 33.33,
-        "position": 1
+        "impressions": 12,
+        "ctr": 16.67,
+        "position": 9.8
       },
       {
-        "query": "feature wall malaysia",
+        "query": "granite factory",
         "clicks": 1,
         "impressions": 3,
         "ctr": 33.33,
         "position": 8.3
       },
       {
-        "query": "granite factory",
+        "query": "granite malaysia",
         "clicks": 1,
-        "impressions": 2,
-        "ctr": 50.0,
-        "position": 1
+        "impressions": 31,
+        "ctr": 3.23,
+        "position": 19.4
       },
       {
         "query": "granite table top",
         "clicks": 1,
-        "impressions": 152,
-        "ctr": 0.66,
-        "position": 9.7
+        "impressions": 154,
+        "ctr": 0.65,
+        "position": 9.6
       },
       {
         "query": "kitchen granite",
@@ -95,28 +88,56 @@
         "clicks": 1,
         "impressions": 28,
         "ctr": 3.57,
-        "position": 11.7
+        "position": 10.8
+      },
+      {
+        "query": "marble backsplash",
+        "clicks": 1,
+        "impressions": 17,
+        "ctr": 5.88,
+        "position": 10.4
       },
       {
         "query": "marble dining table malaysia",
         "clicks": 1,
-        "impressions": 180,
-        "ctr": 0.56,
-        "position": 11.5
+        "impressions": 181,
+        "ctr": 0.55,
+        "position": 11.8
+      },
+      {
+        "query": "marble floor cost",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 9
+      },
+      {
+        "query": "marble floor tiles malaysia",
+        "clicks": 1,
+        "impressions": 9,
+        "ctr": 11.11,
+        "position": 12.8
       },
       {
         "query": "marble flooring",
         "clicks": 1,
-        "impressions": 115,
-        "ctr": 0.87,
-        "position": 4.8
+        "impressions": 123,
+        "ctr": 0.81,
+        "position": 4.2
+      },
+      {
+        "query": "marble flooring malaysia",
+        "clicks": 1,
+        "impressions": 84,
+        "ctr": 1.19,
+        "position": 7.2
       },
       {
         "query": "marble supplier",
         "clicks": 1,
         "impressions": 29,
         "ctr": 3.45,
-        "position": 31.8
+        "position": 28.2
       },
       {
         "query": "marble wall slab",
@@ -124,30 +145,9 @@
         "impressions": 1,
         "ctr": 100,
         "position": 6
-      },
-      {
-        "query": "onyx",
-        "clicks": 1,
-        "impressions": 294,
-        "ctr": 0.34,
-        "position": 9.8
-      },
-      {
-        "query": "premium granite",
-        "clicks": 1,
-        "impressions": 1,
-        "ctr": 100,
-        "position": 1
-      },
-      {
-        "query": "stone art",
-        "clicks": 1,
-        "impressions": 114,
-        "ctr": 0.88,
-        "position": 12.2
       }
     ],
-    "period": "2026-07-27 ~ 2026-08-24"
+    "period": "2026-08-03 ~ 2026-08-31"
   },
   "ga4": {
     "total_sessions": 0,
@@ -157,28 +157,28 @@
     "channels": [
       {
         "channel": "Paid Search",
-        "sessions": 1897,
-        "users": 1646
+        "sessions": 1853,
+        "users": 1587
       },
       {
         "channel": "Organic Search",
-        "sessions": 993,
-        "users": 444
+        "sessions": 1049,
+        "users": 467
       },
       {
         "channel": "Direct",
-        "sessions": 385,
-        "users": 292
+        "sessions": 408,
+        "users": 301
       },
       {
         "channel": "Organic Social",
-        "sessions": 137,
-        "users": 127
+        "sessions": 120,
+        "users": 109
       },
       {
         "channel": "Cross-network",
-        "sessions": 20,
-        "users": 20
+        "sessions": 21,
+        "users": 21
       },
       {
         "channel": "Unassigned",
@@ -187,12 +187,12 @@
       },
       {
         "channel": "Referral",
-        "sessions": 12,
-        "users": 9
+        "sessions": 9,
+        "users": 7
       },
       {
         "channel": "AI Assistant",
-        "sessions": 3,
+        "sessions": 4,
         "users": 2
       }
     ]
