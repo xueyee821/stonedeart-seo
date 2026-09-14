@@ -1,52 +1,45 @@
 {
-  "updated_at": "2026-09-07 05:34",
+  "updated_at": "2026-09-14 05:39",
   "gsc": {
-    "total_clicks": 243,
-    "total_impressions": 15026,
-    "avg_ctr": 1.62,
-    "avg_position": 16.8,
+    "total_clicks": 228,
+    "total_impressions": 14465,
+    "avg_ctr": 1.58,
+    "avg_position": 16.0,
     "top_keywords": [
       {
         "query": "stone de art",
-        "clicks": 82,
-        "impressions": 249,
-        "ctr": 32.93,
+        "clicks": 79,
+        "impressions": 243,
+        "ctr": 32.51,
         "position": 1.1
       },
       {
         "query": "stonedeart",
-        "clicks": 28,
-        "impressions": 69,
-        "ctr": 40.58,
-        "position": 5.5
+        "clicks": 20,
+        "impressions": 65,
+        "ctr": 30.77,
+        "position": 5.7
       },
       {
         "query": "stone de art marble & granite sdn bhd",
-        "clicks": 7,
-        "impressions": 67,
-        "ctr": 10.45,
-        "position": 4.2
+        "clicks": 6,
+        "impressions": 59,
+        "ctr": 10.17,
+        "position": 4.6
       },
       {
         "query": "marble dining table",
         "clicks": 2,
-        "impressions": 210,
-        "ctr": 0.95,
-        "position": 10.3
-      },
-      {
-        "query": "stone",
-        "clicks": 2,
-        "impressions": 95,
-        "ctr": 2.11,
-        "position": 14.4
+        "impressions": 251,
+        "ctr": 0.8,
+        "position": 9.6
       },
       {
         "query": "stone carving",
         "clicks": 2,
         "impressions": 16,
         "ctr": 12.5,
-        "position": 11
+        "position": 11.8
       },
       {
         "query": "balakong",
@@ -63,46 +56,53 @@
         "position": 30
       },
       {
+        "query": "feature wall marble",
+        "clicks": 1,
+        "impressions": 6,
+        "ctr": 16.67,
+        "position": 8.7
+      },
+      {
         "query": "flooring marble",
         "clicks": 1,
-        "impressions": 4,
-        "ctr": 25.0,
-        "position": 2.8
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 2
       },
       {
         "query": "granite",
         "clicks": 1,
-        "impressions": 380,
+        "impressions": 383,
         "ctr": 0.26,
-        "position": 10.5
-      },
-      {
-        "query": "granite factory",
-        "clicks": 1,
-        "impressions": 3,
-        "ctr": 33.33,
-        "position": 8.3
+        "position": 10.9
       },
       {
         "query": "granite malaysia",
         "clicks": 1,
-        "impressions": 35,
-        "ctr": 2.86,
-        "position": 20.8
+        "impressions": 37,
+        "ctr": 2.7,
+        "position": 20.4
       },
       {
-        "query": "kitchen granite",
+        "query": "is onyx a stone",
         "clicks": 1,
-        "impressions": 3,
-        "ctr": 33.33,
-        "position": 7.7
+        "impressions": 2,
+        "ctr": 50.0,
+        "position": 5
       },
       {
         "query": "luxury marble",
         "clicks": 1,
-        "impressions": 31,
-        "ctr": 3.23,
-        "position": 10.3
+        "impressions": 35,
+        "ctr": 2.86,
+        "position": 9.8
+      },
+      {
+        "query": "malaysia marble",
+        "clicks": 1,
+        "impressions": 5,
+        "ctr": 20.0,
+        "position": 14.6
       },
       {
         "query": "marble backsplash",
@@ -114,9 +114,9 @@
       {
         "query": "marble dining table malaysia",
         "clicks": 1,
-        "impressions": 201,
-        "ctr": 0.5,
-        "position": 12.3
+        "impressions": 226,
+        "ctr": 0.44,
+        "position": 10.4
       },
       {
         "query": "marble floor cost",
@@ -128,9 +128,9 @@
       {
         "query": "marble floor tiles malaysia",
         "clicks": 1,
-        "impressions": 10,
-        "ctr": 10.0,
-        "position": 11.6
+        "impressions": 12,
+        "ctr": 8.33,
+        "position": 10.7
       },
       {
         "query": "marble flooring for living room",
@@ -142,12 +142,12 @@
       {
         "query": "marble flooring malaysia",
         "clicks": 1,
-        "impressions": 87,
-        "ctr": 1.15,
-        "position": 7.7
+        "impressions": 85,
+        "ctr": 1.18,
+        "position": 7.6
       }
     ],
-    "period": "2026-08-10 ~ 2026-09-07"
+    "period": "2026-08-17 ~ 2026-09-14"
   },
   "ga4": {
     "total_sessions": 0,
@@ -157,43 +157,43 @@
     "channels": [
       {
         "channel": "Paid Search",
-        "sessions": 1777,
-        "users": 1532
+        "sessions": 1787,
+        "users": 1542
       },
       {
         "channel": "Organic Search",
-        "sessions": 912,
-        "users": 413
+        "sessions": 907,
+        "users": 425
       },
       {
         "channel": "Direct",
-        "sessions": 388,
-        "users": 298
+        "sessions": 394,
+        "users": 307
       },
       {
         "channel": "Organic Social",
-        "sessions": 111,
-        "users": 101
+        "sessions": 119,
+        "users": 100
       },
       {
         "channel": "Cross-network",
-        "sessions": 17,
-        "users": 17
-      },
-      {
-        "channel": "Referral",
-        "sessions": 12,
-        "users": 9
+        "sessions": 20,
+        "users": 20
       },
       {
         "channel": "Unassigned",
-        "sessions": 10,
+        "sessions": 14,
+        "users": 14
+      },
+      {
+        "channel": "Referral",
+        "sessions": 13,
         "users": 10
       },
       {
         "channel": "AI Assistant",
-        "sessions": 5,
-        "users": 3
+        "sessions": 8,
+        "users": 6
       }
     ]
   }
