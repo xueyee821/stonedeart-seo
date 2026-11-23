@@ -1,80 +1,94 @@
 {
-  "updated_at": "2026-11-16 07:32",
+  "updated_at": "2026-11-23 08:30",
   "gsc": {
-    "total_clicks": 190,
-    "total_impressions": 13326,
-    "avg_ctr": 1.43,
+    "total_clicks": 214,
+    "total_impressions": 15734,
+    "avg_ctr": 1.36,
     "avg_position": 10.7,
     "top_keywords": [
       {
         "query": "stone de art",
-        "clicks": 74,
-        "impressions": 266,
-        "ctr": 27.82,
-        "position": 2.1
+        "clicks": 81,
+        "impressions": 288,
+        "ctr": 28.12,
+        "position": 2.3
       },
       {
         "query": "stonedeart",
-        "clicks": 16,
-        "impressions": 35,
-        "ctr": 45.71,
-        "position": 1.5
+        "clicks": 21,
+        "impressions": 49,
+        "ctr": 42.86,
+        "position": 1.4
       },
       {
         "query": "floor marble tiles",
-        "clicks": 6,
-        "impressions": 24,
-        "ctr": 25.0,
+        "clicks": 12,
+        "impressions": 28,
+        "ctr": 42.86,
         "position": 5.4
       },
       {
         "query": "marble floor",
-        "clicks": 6,
-        "impressions": 346,
-        "ctr": 1.73,
-        "position": 3.6
+        "clicks": 12,
+        "impressions": 658,
+        "ctr": 1.82,
+        "position": 4.1
       },
       {
         "query": "stone de art marble & granite sdn bhd",
-        "clicks": 6,
-        "impressions": 48,
-        "ctr": 12.5,
-        "position": 1.9
-      },
-      {
-        "query": "marble",
-        "clicks": 2,
-        "impressions": 321,
-        "ctr": 0.62,
-        "position": 7.9
+        "clicks": 5,
+        "impressions": 63,
+        "ctr": 7.94,
+        "position": 6.4
       },
       {
         "query": "marble dining table malaysia",
         "clicks": 2,
-        "impressions": 140,
-        "ctr": 1.43,
-        "position": 6.1
+        "impressions": 160,
+        "ctr": 1.25,
+        "position": 6.5
+      },
+      {
+        "query": "art stone",
+        "clicks": 1,
+        "impressions": 8,
+        "ctr": 12.5,
+        "position": 3
+      },
+      {
+        "query": "do they have this",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 1
       },
       {
         "query": "granite",
         "clicks": 1,
-        "impressions": 341,
-        "ctr": 0.29,
-        "position": 8.3
+        "impressions": 427,
+        "ctr": 0.23,
+        "position": 8.2
       },
       {
-        "query": "granite worktops",
+        "query": "granite table top",
         "clicks": 1,
-        "impressions": 2,
-        "ctr": 50.0,
-        "position": 3
+        "impressions": 214,
+        "ctr": 0.47,
+        "position": 18.3
+      },
+      {
+        "query": "italy stone",
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 2
       },
       {
         "query": "luxury dining table",
         "clicks": 1,
-        "impressions": 89,
-        "ctr": 1.12,
-        "position": 7.2
+        "impressions": 88,
+        "ctr": 1.14,
+        "position": 7
       },
       {
         "query": "luxury marble dining table",
@@ -84,70 +98,56 @@
         "position": 7
       },
       {
+        "query": "marble",
+        "clicks": 1,
+        "impressions": 518,
+        "ctr": 0.19,
+        "position": 9.1
+      },
+      {
         "query": "marble dining table",
         "clicks": 1,
-        "impressions": 152,
-        "ctr": 0.66,
-        "position": 6.7
+        "impressions": 112,
+        "ctr": 0.89,
+        "position": 9.7
       },
       {
         "query": "marble flooring malaysia",
         "clicks": 1,
-        "impressions": 43,
-        "ctr": 2.33,
-        "position": 4.4
+        "impressions": 41,
+        "ctr": 2.44,
+        "position": 3.7
+      },
+      {
+        "query": "marble granite malaysia",
+        "clicks": 1,
+        "impressions": 9,
+        "ctr": 11.11,
+        "position": 14.4
       },
       {
         "query": "marble malaysia",
         "clicks": 1,
-        "impressions": 72,
-        "ctr": 1.39,
-        "position": 7.7
+        "impressions": 78,
+        "ctr": 1.28,
+        "position": 6.9
       },
       {
         "query": "marble slab",
         "clicks": 1,
-        "impressions": 53,
-        "ctr": 1.89,
-        "position": 12.7
-      },
-      {
-        "query": "marble stone flooring",
-        "clicks": 1,
-        "impressions": 17,
-        "ctr": 5.88,
-        "position": 4.2
+        "impressions": 56,
+        "ctr": 1.79,
+        "position": 14.8
       },
       {
         "query": "marble stone near me",
         "clicks": 1,
-        "impressions": 2,
-        "ctr": 50.0,
-        "position": 5
-      },
-      {
-        "query": "marble stone supplier malaysia",
-        "clicks": 1,
-        "impressions": 16,
-        "ctr": 6.25,
-        "position": 21.1
-      },
-      {
-        "query": "marble stone suppliers near me",
-        "clicks": 1,
         "impressions": 1,
         "ctr": 100,
         "position": 1
-      },
-      {
-        "query": "marble toilet",
-        "clicks": 1,
-        "impressions": 53,
-        "ctr": 1.89,
-        "position": 4.7
       }
     ],
-    "period": "2026-10-19 ~ 2026-11-16"
+    "period": "2026-10-26 ~ 2026-11-23"
   },
   "ga4": {
     "total_sessions": 0,
@@ -157,43 +157,43 @@
     "channels": [
       {
         "channel": "Paid Search",
-        "sessions": 1685,
-        "users": 1466
+        "sessions": 1730,
+        "users": 1501
       },
       {
         "channel": "Organic Search",
-        "sessions": 640,
-        "users": 363
+        "sessions": 657,
+        "users": 359
       },
       {
         "channel": "Direct",
-        "sessions": 498,
-        "users": 356
+        "sessions": 531,
+        "users": 392
       },
       {
         "channel": "Organic Social",
-        "sessions": 93,
-        "users": 71
+        "sessions": 83,
+        "users": 72
       },
       {
         "channel": "AI Assistant",
-        "sessions": 37,
-        "users": 37
+        "sessions": 25,
+        "users": 25
       },
       {
         "channel": "Cross-network",
-        "sessions": 19,
-        "users": 19
+        "sessions": 17,
+        "users": 17
       },
       {
         "channel": "Referral",
-        "sessions": 18,
-        "users": 9
+        "sessions": 17,
+        "users": 10
       },
       {
         "channel": "Unassigned",
-        "sessions": 17,
-        "users": 16
+        "sessions": 15,
+        "users": 15
       }
     ]
   }
